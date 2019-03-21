@@ -13,9 +13,13 @@
                     if (!clientWidth) return;
                     if (clientWidth >= 640) {
                         docEl.style.fontSize = '100px';
-                    } else {
+                    } else if(clientWidth >= 370){
                         docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+                    }else {
+                        docEl.style.fontSize = 100 * (clientWidth / 360) + 'px';
                     }
+
+                    console.log("clientWidth",clientWidth);
                 };
 
             if (!doc.addEventListener) return;

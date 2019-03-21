@@ -1,3 +1,6 @@
+﻿@media(min-width:1140px){
+    .g-container
+}
 /*顶部导航*/
 .g-top {
     width: 100%;
@@ -135,6 +138,7 @@
 .g-main ul {
     width: 100%;
     margin-bottom: 0.8rem;
+    overflow: hidden;
 }
 
 .g-main-item {
@@ -231,15 +235,15 @@
     display: inline-block;
     height: 0.42rem;
     width: 0.42rem;
-    background:url("../img/sprits.png") -149px 0;
+    background: url("../img/sprits.png") -149px 0;
 }
 
-.g-tips-goals{
+.g-tips-goals {
     position: absolute;
     bottom: 0.1rem;
     right: 0.05rem;
     display: inline-block;
     height: 0.42rem;
     width: 0.42rem;
-    background:url("../img/sprits.png") 0 -78px;
+    background: url("../img/sprits.png") 0 -78px;
 }
